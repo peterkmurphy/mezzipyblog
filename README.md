@@ -9,7 +9,7 @@ let you do this.
 * Let's assume you have Mezzanine installed. You've also got to install
 jupyter in your virtual environment:
 
-    pip install jupyter
+    ```pip install jupyter```
 
 * Clone or download this repository somewhere where it would be detected by
 a running Mezzanine instance. In particular, you should be able to edit
@@ -64,11 +64,11 @@ url("^blog/(?P<slug>.*)%s$" % _slash,
 
 * Finally, you will need to migrate the new blog model. Please run:
 
-    python manage.py makemigrations
+    ```python manage.py makemigrations```
 
 * If you are prompted, please choose option 2. To finalise, run:
 
-    python manage.py migrate
+    ```python manage.py migrate```
 
 ## Usage
 
@@ -86,4 +86,3 @@ with **both** *Content* and *Notebook*.
 ## Author
 
 Peter Murphy, 2018.
-  
